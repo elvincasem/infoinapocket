@@ -14,28 +14,7 @@
     <link rel="stylesheet" href="css/kitchen-sink.css">
     <link rel="icon" href="img/icon.png">
 	
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzIoQb8w8VNiv4xrsE6bRmV-2wPXvsADA&callback=initMap"
-  type="text/javascript"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load("upcoming", {packages:["map"]});
-      google.charts.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Lat', 'Long', 'Name'],
-          [16.606813,120.3170209, 'DMMMSU MLUC'],
-		  [16.3253753,120.3694649, 'DMMMSU SLUC']
-
-        ]);
-
-        var map = new google.visualization.Map(document.getElementById('map_div'));
-        map.draw(data, {
-          showTooltip: true,
-          showInfoWindow: true
-        });
-      }
-
-    </script>
+	
 	
   </head>
   <body onload="check_session();">
@@ -50,6 +29,8 @@
                 <div class="center">CHEDRO1</div>
               </div>
             </div>
+			
+			
             <div class="page-content">
 			<br>
 			<center><img src="img/logo_300.png" style="width:70%;"></center>
@@ -121,6 +102,14 @@
                 <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
               </div>
             </div>
+			
+			
+			<div class="toolbar toolbar-bottom">
+    <div class="toolbar-inner"><a href="page/programs.html" class="link"><i class="icon ks-icon-email"></i> Programs</a><a href="page/directory.html" class="link"><i class="icon ks-icon-calendar"></i> Directory</a><a href="page/scholarship.html" class="link"><i class="icon ks-icon-calendar"></i> Scholarship</a><a href="page/inquiry.html" class="link"><i class="icon ks-icon-upload"></i>Inquiry</a></div>  
+  </div>
+			
+			
+			
             <div class="page-content">
 			
 			
@@ -149,9 +138,7 @@
     </div>
          
 		
-		 <div class="toolbar toolbar-bottom">
-    <div class="toolbar-inner"><a href="page/programs.html" class="link"><i class="icon ks-icon-email"></i> Programs</a><a href="page/directory.html" class="link"><i class="icon ks-icon-calendar"></i> Directory</a><a href="page/scholarship.html" class="link"><i class="icon ks-icon-calendar"></i> Scholarship</a><a href="page/inquiry.html" class="link"><i class="icon ks-icon-upload"></i>Inquiry</a></div>  
-  </div>
+		 
 		
       </div>
     </div>
@@ -192,77 +179,8 @@
         </div>
       </div>
     </div>
-    <div class="popover popover-music">
-      <div class="popover-inner">
-        <div class="list-block media-list">
-          <ul>
-            <li><a href="#" class="item-link item-content">
-                <div class="item-media"><img src="http://lorempixel.com/88/88/people/1" width="44"></div>
-                <div class="item-inner">
-                  <div class="item-title-row">
-                    <div class="item-title">Yellow Submarine</div>
-                  </div>
-                  <div class="item-subtitle">Beatles</div>
-                </div></a></li>
-            <li><a href="#" class="item-link item-content">
-                <div class="item-media"><img src="http://lorempixel.com/88/88/people/2" width="44"></div>
-                <div class="item-inner">
-                  <div class="item-title-row">
-                    <div class="item-title">Don't Stop Me Now</div>
-                  </div>
-                  <div class="item-subtitle">Queen</div>
-                </div></a></li>
-            <li><a href="#" class="item-link item-content">
-                <div class="item-media"><img src="http://lorempixel.com/88/88/people/3" width="44"></div>
-                <div class="item-inner">
-                  <div class="item-title-row">
-                    <div class="item-title">Billie Jean</div>
-                  </div>
-                  <div class="item-subtitle">Michael Jackson</div>
-                </div></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="popover popover-contacts">
-      <div class="popover-inner">
-        <div class="list-block media-list">
-          <ul>
-            <li class="item-content">
-              <div class="item-media"><img src="http://lorempixel.com/88/88/people/1" width="40"></div>
-              <div class="item-inner">
-                <div class="item-title-row">
-                  <div class="item-title">Ali Connors</div>
-                </div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><img src="http://lorempixel.com/88/88/people/2" width="40"></div>
-              <div class="item-inner">
-                <div class="item-title-row">
-                  <div class="item-title">Sandra Adams</div>
-                </div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><img src="http://lorempixel.com/88/88/people/3" width="40"></div>
-              <div class="item-inner">
-                <div class="item-title-row">
-                  <div class="item-title">Trevor Hansen</div>
-                </div>
-              </div>
-            </li>
-            <li><a href="#" class="item-link item-content bg-purple color-white ripple-white">
-                <div class="item-media"><i class="icon ks-icon-edit"></i></div>
-                <div class="item-inner">
-                  <div class="item-title-row">
-                    <div class="item-title">Add New</div>
-                  </div>
-                </div></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    
+    
     <div class="login-screen">
       <div class="view">
         <div class="page">

@@ -43,7 +43,7 @@
     
 </platform>
 
-<preference name="SplashScreenDelay" value="5000" />
+<!--<preference name="SplashScreenDelay" value="5000" /> -->
 <preference name="SplashMaintainAspectRatio" value="true" />
 
 	<preference name="splashscreen" value="splash"/>	

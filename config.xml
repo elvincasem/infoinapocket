@@ -42,10 +42,10 @@
     <splash src="splash.png" width="640" height="960"/>
     
 </platform>
-<preference name="AutoHideSplashScreen" value="true" />
-<preference name="SplashScreenDelay" value="3000" />
+
+<preference name="SplashScreenDelay" value="5000" />
 <preference name="SplashMaintainAspectRatio" value="true" />
-<preference name="SplashShowOnlyFirstTime" value="true" />
+
 	<preference name="splashscreen" value="splash"/>	
     </widget>
 

@@ -1,3 +1,9 @@
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    console.log(device.cordova);
+	 navigator.splashscreen.hide();
+}
+
 // Init App
 var myApp = new Framework7({
     modalTitle: 'Framework7',

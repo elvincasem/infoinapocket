@@ -1,9 +1,3 @@
-document.addEventListener("deviceready", onDeviceReady, false);
-function onDeviceReady() {
-    console.log(device.cordova);
-	 navigator.splashscreen.hide();
-}
-
 // Init App
 var myApp = new Framework7({
     modalTitle: 'Framework7',
@@ -293,21 +287,85 @@ myApp.onPageInit('sortable-list', function (page) {
 // Create photoprobsers first:
 var photoBrowserPhotos = [
 	{
-		url: 'img/beach.jpg',
-		caption: 'Amazing beach in Goa, India'
-	},
-    'http://placekitten.com/1024/1024',
-    'img/lock.jpg',
-    {
-        url: 'img/monkey.jpg',
-        caption: 'I met this monkey in Chinese mountains'
-    },
-    {
-        url: 'img/mountains.jpg',
-        caption: 'Beautiful mountains in Zhangjiajie, China'
-    }
+		url: 'img/sgs_nominationprocess_download1.jpg',
+		caption: 'Scholarship'
+	}
 
 ];
+var photonews1 = [
+	{
+		url: 'img/AutoDeregUpdated.png',
+		caption: 'News 1'
+	}
+
+];
+var photoNewsOne = myApp.photoBrowser({
+    photos: photonews1,
+    theme: 'dark',
+	 type: 'popup'
+	 
+});
+var photonews2 = [
+	{
+		url: 'img/Untitled-7.jpg',
+		caption: 'News 2'
+	}
+
+];
+var photoNewsTwo = myApp.photoBrowser({
+    photos: photonews2,
+    theme: 'dark',
+	 type: 'popup'
+});
+var photonews3 = [
+	{
+		url: 'img/AutoDeregUpdated.png',
+		caption: 'News 3'
+	}
+
+];
+var photoNewsThree = myApp.photoBrowser({
+    photos: photonews3,
+    theme: 'dark',
+	 type: 'popup'
+});
+var photonews4 = [
+	{
+		url: 'img/k12.png',
+		caption: 'News 4'
+	}
+
+];
+var photoNewsFour = myApp.photoBrowser({
+    photos: photonews4,
+    theme: 'dark',
+	 type: 'popup'
+});
+var photonews5 = [
+	{
+		url: 'img/ExecCon-2.png',
+		caption: 'News 5'
+	}
+
+];
+var photoNewsFive = myApp.photoBrowser({
+    photos: photonews5,
+    theme: 'dark',
+	 type: 'popup'
+});
+var photonews6 = [
+	{
+		url: 'img/1.png',
+		caption: 'News 6'
+	}
+
+];
+var photoNewsSix = myApp.photoBrowser({
+    photos: photonews6,
+    theme: 'dark',
+	 type: 'popup'
+});
+
 var photoBrowserStandalone = myApp.photoBrowser({
     photos: photoBrowserPhotos
 });
@@ -444,6 +502,27 @@ $$('.popover a').on('click', function () {
 
 myApp.onPageInit('index', function (page) {
   //alert("login first 123");
+     $$('.ks-pb-standalone-dark').on('click', function () {
+        photoBrowserDark.open();
+    });
+	$$('.news-one').on('click', function () {
+        photoNewsOne.open();
+    }); 
+	$$('.news-two').on('click', function () {
+        photoNewsTwo.open();
+    }); 
+	$$('.news-three').on('click', function () {
+        photoNewsThree.open();
+	});
+	$$('.news-four').on('click', function () {
+        photoNewsFour.open();
+	});	
+	$$('.news-five').on('click', function () {
+        photoNewsFive.open();
+	});
+	$$('.news-six').on('click', function () {
+        photoNewsSix.open();	
+	});	
 });
 myApp.onPageInit('about', function (page) {
   //alert("login first");
@@ -1095,3 +1174,4 @@ function createContentPage() {
     return;
 }
 $$(document).on('click', '.ks-generate-page', createContentPage);
+

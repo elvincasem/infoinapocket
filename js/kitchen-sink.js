@@ -1,6 +1,6 @@
 // Init App
 var myApp = new Framework7({
-    modalTitle: 'Framework7',
+    modalTitle: 'Info in a Pocket',
     // Enable Material theme
     material: true,
 });

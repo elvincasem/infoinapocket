@@ -7,7 +7,8 @@
         version     = "1.5.0" >
         <name>Info in a Pocket</name>
         <description>
-            CHED Region 1
+            CHED Region 1 - Info in a Pocket
+			This portal is our gateway to make higher education data/information more accessible as we build, at the same time, closer and stronger alliances with our stakeholders and partners in development.
         </description>
         <author email="info@chedro1.com" href="http://www.chedro1.com">
             CHED MIS
@@ -15,12 +16,12 @@
         <content src="index.html" />
         <access origin="*" />
 		<allow-navigation href="*" />
-        <icon src="icon.png" gap:platform="android" gap:qualifier="ldpi" />
-        <icon src="icon.png" gap:platform="android" gap:qualifier="mdpi" />
-        <icon src="icon.png" gap:platform="android" gap:qualifier="hdpi" />
-        <icon src="icon.png" gap:platform="android" gap:qualifier="xhdpi" />
-        <icon src="icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
-        <icon src="icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
+        <icon src="infopocketicon.png" gap:platform="android" gap:qualifier="ldpi" />
+        <icon src="infopocketicon.png" gap:platform="android" gap:qualifier="mdpi" />
+        <icon src="infopocketicon.png" gap:platform="android" gap:qualifier="hdpi" />
+        <icon src="infopocketicon.png" gap:platform="android" gap:qualifier="xhdpi" />
+        <icon src="infopocketicon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+        <icon src="infopocketicon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
 		<preference name="debuggable" value="false"/>
 		<plugin name="cordova-plugin-whitelist" spec="1.3.0" source="npm" />
 		<plugin name="cordova-plugin-inappbrowser" spec="1.5.0" source="npm" />

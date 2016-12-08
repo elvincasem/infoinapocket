@@ -2,7 +2,7 @@
 <div data-page="scholarship" class="page">
   <div class="navbar">
     <div class="navbar-inner">
-      <div class="left"><a href="index.html" class="back link icon-only"><i class="icon icon-back"></i></a></div>
+      <div class="left"><a id="closeinquiry" href="index.html" class="back link icon-only"><i class="icon icon-back"></i></a></div>
       <div class="center" id="hei_details_title">Inquiry</div>
       <div class="right"><a href="#" class="link open-panel icon-only"><i class="icon icon-bars"></i></a></div>
     </div>
@@ -26,7 +26,7 @@
             <div class="item-inner"> 
               <div class="item-title label">Name</div>
               <div class="item-input">
-                <input type="text" placeholder="Your name"/>
+                <input id="inquiryname" type="text" placeholder="Your name"/>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@
             <div class="item-inner"> 
               <div class="item-title label">Phone</div>
               <div class="item-input">
-                <input type="tel" placeholder="Phone"/>
+                <input  id="inquiryphone" type="tel" placeholder="Phone"/>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@
             <div class="item-inner"> 
               <div class="item-title label">E-mail</div>
               <div class="item-input">
-                <input type="email" placeholder="E-mail"/>
+                <input  id="email" type="email" placeholder="E-mail"/>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@
             <div class="item-inner"> 
               <div class="item-title label">Message</div>
               <div class="item-input">
-                <textarea class="resizable"></textarea>
+                <textarea  id="message" class="resizable"></textarea>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@
 		
 		
 	</div>
-	   <p class="buttons-row"><a href="#" class="button button-big button-fill button-raised color-blue">Send</a></p>
+	   <p class="buttons-row"><a href="#" class="button button-big button-fill button-raised color-blue" onclick="sendinquiry();">Send</a></p>
     </div>
     
   </div> 

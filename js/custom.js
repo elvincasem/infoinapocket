@@ -37,9 +37,7 @@ db.transaction(function (tx) {
 }
 
 
-	
-	
-	
+function showdetails(instcode)	{
 	
 	if(instcode=='1122'){
 		localStorage.setItem("current_hei","ABE International College of Business and Accountancy");

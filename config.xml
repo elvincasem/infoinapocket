@@ -4,7 +4,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.chedro1.www"
         versionCode = "1" 
-        version     = "1.8.1" >
+        version     = "2.0.1" >
         <name>Info in a Pocket</name>
         <description>
             CHED Region 1 - Info in a Pocket

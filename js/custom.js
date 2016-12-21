@@ -4147,10 +4147,11 @@ function sendinquiry(){
     var iphone = document.getElementById("inquiryphone").value;
     var email = document.getElementById("email").value;
     var message = document.getElementById("message").value;
+	var selectunit = document.getElementById("selectunit").value;
 	//alert(iname);
 	//alert(iphone);
 	
-	$$.post('http://chedro1.com/m/inquiry.php', {iname: iname,iphone: iphone, email: email, message:message}, function (data,status) {
+	$$.post('http://chedro1.com/m/inquiry.php', {iname: iname,iphone: iphone, email: email, message:message,selectunit:selectunit}, function (data,status) {
 		myApp.alert('Inquiry Sent!');
 		var closeinquiry = document.getElementById("closeinquiry");
 		closeinquiry.click();
